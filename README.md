@@ -6,3 +6,4 @@ Project for DataBase Systems
 3. Import product.sql, db_project.sql in php admin
 Check Final_report.pdf for ER, EER diagram, Logical and Physical database design. 
 db.sql for creating tables, inserting data.
+Product images used in this site are present product.zip
