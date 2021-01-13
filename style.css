@@ -1,0 +1,84 @@
+.sidenav{
+  height:100%;
+  width:240px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 20px;
+  border: 1px solid;
+  border-style: hidden;
+  border-right-style: solid;
+  border-right-color: #EBE8E8;
+}
+.sidenav a{
+  padding: 6px 8px 6px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  font-family: sans-serif;
+  color: inherit;
+}
+.sidenav a:hover{
+  background-color: #EBE8E8;
+}
+.sidenav a.active {
+  background-color: #EBE8E8;
+  color: white;
+}
+.main {
+  margin-left: 240px; /* Same as the width of the sidenav */
+  padding: 10px 10px;
+}
+
+div.gallery {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #EBE8E8;
+  float: left;
+  width: 284px;
+}
+div.gallery:hover {
+  border: 1px solid grey;
+}
+
+div.gallery img {
+  position: relative;
+  width: auto;
+  height: 350px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: justify;
+  height: 55px;
+  overflow: hidden;
+  color: black;
+}
+
+div.price {
+  padding: 15px;
+  text-align: left;
+  height: 55px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+div.rev{
+  padding: 15px;
+  height: 55px;
+}
+.checked {
+  color: orange;
+}
+.unchecked {
+  color: #EBE8E8;
+}
+
+
+img.photo{
+  height: 100%;
+  width: auto;
+  position: absolute;
+}
